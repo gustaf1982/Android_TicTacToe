@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">SpringTicTacToe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_gala_tic_tac_toe">GalaTicTacToe</string>
+    <string name="title_image">This is the title image.</string>
+    <string name="btn_startgame">Click to start the game.</string>
+    <string name="btn_howtoplay">Click to view instructions.</string>
+    <string name="btn_about">Click to view the description of the game.</string>
+    <string name="btn_quitgame">Click to exit the application.</string>
+    <string name="about">About The Game</string>
+    <string name="howtoplay">How To Play GalacTicTacToe</string>
+    <string-array name="difficulty_level">
+        <item >easy</item>
+        <item >medium</item>
+        <item >hard</item>
+    </string-array>
+
+</resources>

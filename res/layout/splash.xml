@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:orientation="vertical"
+    tools:context=".Splash" >
+
+    <ImageView
+        android:id="@+id/ciit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="249dp"
+        android:src="@drawable/mark" />
+    
+
+    <ImageView
+        android:id="@+id/earthmaniebo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/earthmaniebo"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/michaelalcaraz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/earthmaniebo"
+        android:layout_below="@+id/earthmaniebo"
+        android:src="@drawable/michaelalcaraz"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/adamguiritan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/michaelalcaraz"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gustafcarl_myname"
+        android:visibility="invisible" />
+
+</RelativeLayout>
